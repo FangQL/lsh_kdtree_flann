@@ -1,0 +1,44 @@
+﻿  源.cpp
+e:\test_flann_original\test_flann\flann\util\saving.h(111): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+e:\test_flann_original\test_flann\flann\util\allocator.h(199): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+e:\test_flann_original\test_flann\flann\util\random.h(82): warning C4244: “参数”: 从“ptrdiff_t”转换到“int”，可能丢失数据
+e:\test_flann_original\test_flann\flann\util\lsh_table.h(517): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\test_flann_original\test_flann\flann\util\lsh_table.h(520): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+e:\test_flann_original\test_flann\flann\util\lsh_table.h(536): warning C4018: “<”: 有符号/无符号不匹配
+e:\test_flann_original\test_flann\flann\util\lsh_table.h(297): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  e:\test_flann_original\test_flann\flann\util\lsh_table.h(295): note: 编译类 模板 成员函数“void flann::lsh::LshTable<float>::initialize(std::size_t)”时
+  e:\test_flann_original\test_flann\flann\util\lsh_table.h(501): note: 参见对正在编译的函数 模板 实例化“void flann::lsh::LshTable<float>::initialize(std::size_t)”的引用
+  e:\test_flann_original\test_flann\flann\util\lsh_table.h(498): note: 参见对正在编译的类 模板 实例化“flann::lsh::LshTable<float>”的引用
+e:\test_flann_original\test_flann\flann\algorithms\kdtree_index.h(322): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  e:\test_flann_original\test_flann\flann\algorithms\kdtree_index.h(315): note: 编译类 模板 成员函数“int flann::KDTreeIndex<Distance>::knnSearch(const flann::Matrix<float> &,flann::Matrix<int> &,flann::Matrix<float> &,std::size_t,const flann::SearchParams &) const”时
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  e:\test_flann_original\test_flann\flann\flann.hpp(284): note: 参见对正在编译的函数 模板 实例化“int flann::KDTreeIndex<Distance>::knnSearch(const flann::Matrix<float> &,flann::Matrix<int> &,flann::Matrix<float> &,std::size_t,const flann::SearchParams &) const”的引用
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  e:\test_flann_original\test_flann\flann\flann.hpp(284): note: 参见对正在编译的类 模板 实例化“flann::KDTreeIndex<Distance>”的引用
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  e:\test_flann_original\test_flann\flann\flann.hpp(283): note: 编译类 模板 成员函数“int flann::Index<flann::L2<float>>::knnSearch(const flann::Matrix<float> &,flann::Matrix<int> &,flann::Matrix<float> &,std::size_t,const flann::SearchParams &) const”时
+  e:\test_flann_original\test_flann\源.cpp(118): note: 参见对正在编译的函数 模板 实例化“int flann::Index<flann::L2<float>>::knnSearch(const flann::Matrix<float> &,flann::Matrix<int> &,flann::Matrix<float> &,std::size_t,const flann::SearchParams &) const”的引用
+  e:\test_flann_original\test_flann\源.cpp(113): note: 参见对正在编译的类 模板 实例化“flann::Index<flann::L2<float>>”的引用
+e:\test_flann_original\test_flann\flann\algorithms\kdtree_index.h(277): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  e:\test_flann_original\test_flann\flann\algorithms\kdtree_index.h(250): note: 编译类 模板 成员函数“int flann::KDTreeIndex<Distance>::knnSearch(const flann::Matrix<float> &,flann::Matrix<std::size_t> &,flann::Matrix<float> &,std::size_t,const flann::SearchParams &) const”时
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+  e:\test_flann_original\test_flann\flann\algorithms\kdtree_index.h(318): note: 参见对正在编译的函数 模板 实例化“int flann::KDTreeIndex<Distance>::knnSearch(const flann::Matrix<float> &,flann::Matrix<std::size_t> &,flann::Matrix<float> &,std::size_t,const flann::SearchParams &) const”的引用
+          with
+          [
+              Distance=flann::L2<float>
+          ]
+e:\test_flann_original\test_flann\flann\algorithms\kdtree_index.h(292): warning C4267: “+=”: 从“size_t”转换到“int”，可能丢失数据
+  Test_Flann.vcxproj -> E:\Test_Flann_Original\x64\Debug\Test_Flann.exe
+  Test_Flann.vcxproj -> E:\Test_Flann_Original\x64\Debug\Test_Flann.pdb (Partial PDB)
